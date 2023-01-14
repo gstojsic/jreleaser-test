@@ -74,6 +74,8 @@ jreleaser {
 
     release {
         github {
+            username.set("gstojsic")
+            repoOwner.set("gstojsic")
             commitAuthor {
                 name.set("goran")
             }
