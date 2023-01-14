@@ -70,7 +70,7 @@ jreleaser {
     }
 
     gitRootSearch.set(true)
-    dryrun.set(true)
+    //dryrun.set(true)
 
     release {
         github {
@@ -92,8 +92,7 @@ jreleaser {
             nexus2 {
                 create("maven-central") {
                     active.set(Active.ALWAYS)
-                    //url.set("https://s01.oss.sonatype.org/service/local") //original
-                    url.set("https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/")
+                    url.set("https://s01.oss.sonatype.org/service/local")
                     snapshotUrl.set("https://s01.oss.sonatype.org/content/repositories/snapshots/")
                     closeRepository.set(true)
                     releaseRepository.set(true)
