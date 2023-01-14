@@ -1,6 +1,6 @@
 allprojects {
     group = "io.github.gstojsic.test"
-    version = "1.0"
+    version = "1.1-SNAPSHOT"
 
     repositories {
         mavenCentral()
